@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mradul-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.4rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 120px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 70px 0;
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(140, 17, 255);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(140, 17, 255);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .section-title {
+            color: rgb(140, 17, 255);
+            margin: 20px 0;
+            font-size: 2rem;
+        }
+
+        .content {
+            margin: 20px 0;
+            color: gray;
+            line-height: 1.8;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .skills-container div {
+            background-color: rgb(18, 18, 62);
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        .skills-container h3 {
+            color: rgb(140, 17, 255);
+        }
+
+        .experience, .achievements, .certifications {
+            margin-top: 40px;
+        }
+
+        .experience h2, .achievements h2, .certifications h2 {
+            color: rgb(140, 17, 255);
+        }
+
+        .experience ul, .achievements ul, .certifications ul {
+            margin: 10px 0;
+            list-style: none;
+        }
+
+        .experience li, .achievements li, .certifications li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Mradul's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hii, My name is <span class="purple">Mradul</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <!-- About Me -->
+        <section class="about-me">
+            <h2 class="section-title">About Me</h2>
+            <p class="content">
+                Hello! I'm Mradul Shukla, a passionate software developer specializing in creating web-based applications. My journey in the tech industry has been driven by a strong enthusiasm for problem-solving and a commitment to delivering user-centric solutions.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div>
+                    <h3>Technical Skills</h3>
+                    <p>Java,  C, SQL, HTML, CSS, JavaScript, NodeJS</p>
+                </div>
+                <div>
+                    <h3>Tools & Technologies</h3>
+                    <p>Git, GitHub, MySQL, MS Excel, Overleaf, Cisco Packet Tracer</p>
+                </div>
+                <div>
+                    <h3>Soft Skills</h3>
+                    <p>Leadership, Teamwork, Problem Solving, Communication, Public Speaking</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        
+
+
+        <!-- Projects Section -->
+<section class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="project-container" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+
+        <!-- Project 1 -->
+        <div style="background-color: rgb(18, 18, 62); padding: 20px; border-radius: 8px; width: 30%;">
+            <h3 style="color: rgb(140, 17, 255);">Just Scan</h3>
+            <p>May 2024 – Present</p>
+            <p>Web-based attendance system using QR and face recognition.</p>
+            <a href="https://github.com/mohdhamzaabbasi/Attendance-System" style="display: inline-block; margin-top: 10px; text-decoration: none; color: white; background-color: rgb(140, 17, 255); padding: 10px 15px; border-radius: 5px;">View Project</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div style="background-color: rgb(18, 18, 62); padding: 20px; border-radius: 8px; width: 30%;">
+            <h3 style="color: rgb(140, 17, 255);">Budget Tracking System</h3>
+            <p>Feb 2024 – Apr 2024</p>
+            <p>Expense Tracker System</p>
+            <a href="https://github.com/mohdhamzaabbasi/Expense-Tracker" style="display: inline-block; margin-top: 10px; text-decoration: none; color: white; background-color: rgb(140, 17, 255); padding: 10px 15px; border-radius: 5px;">View Project</a>
+        </div>
+
+        <!-- Project 3 -->
+        <div style="background-color: rgb(18, 18, 62); padding: 20px; border-radius: 8px; width: 30%;">
+            <h3 style="color: rgb(140, 17, 255);">Online Bookstore Management System</h3>
+            <p>Nov 2023 – Dec 2023</p>
+            <p>Online Bookstore Management System</p>
+            <a href="https://github.com/MRADUL-123/Online-bookstore-management/tree/main" style="display: inline-block; margin-top: 10px; text-decoration: none; color: white; background-color: rgb(140, 17, 255); padding: 10px 15px; border-radius: 5px;">View Project</a>
+        </div>
+
+    </div>
+</section>
+
+<section class="Responsbilities">
+    <h2 class="section-title">Responsbilities</h2>
+    <ul>
+        <li>
+            <strong>Member | Codex Community, SIT</strong><br>
+            
+            <p>Participated in coding workshops to enhance technical skills and knowledge.</p>
+        </li>
+        <li>
+            <strong>Player | College Cricket Team, SIT</strong><br>
+           
+            <p>Represented the college in inter-college cricket tournaments and matches, showcasing teamwork and sportsmanship.</p>
+        </li>
+    </ul>
+</section>
+
+        
+
+        <!-- Certifications -->
+        <section class="certifications">
+            <h2 class="section-title">Certifications</h2>
+            <ul>
+              
+                <li>Java Basics (HackerRank)</li>
+                <li>Introduction to Operating Systems (Udemy)</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
